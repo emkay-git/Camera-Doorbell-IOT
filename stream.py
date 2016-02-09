@@ -3,11 +3,7 @@ from flask import Flask, render_template, Response
 import cv2
 import sys
 import numpy
-# emulated camera
 
-
-# Raspberry Pi camera module (requires picamera package)
-# from camera_pi import Camera
 
 app = Flask(__name__)
 
@@ -34,7 +30,7 @@ def get_frame():
     i=1
     while True:
         retval, im = camera.read()
-        imgencode=cv2.imencode('.jpg',im)[1]#,encode_param)
+        imgencode=cv2.imencode('.jpg',im)[1]
         stringData=imgencode.tostring()
         yield (b'--frame\r\n'
             b'Content-Type: text/plain\r\n\r\n'+stringData+b'\r\n')
@@ -48,4 +44,4 @@ def calc():
 
 
 if __name__ == '__main__':
-    app.run(host='172.25.32.138', debug=True, threaded=True)
+    app.run(host='localhost', debug=True, threaded=True)
