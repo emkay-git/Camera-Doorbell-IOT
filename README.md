@@ -9,7 +9,12 @@ can see the video stream.</br>
 Following video shows the working of video stream (from laptop, although it works on Raspberry Pi, but is not currently available
 with me, will update the video with Raspberry Pi later)
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+</br>
+<p align="center">
+<a href="https://youtu.be/MC7w6f2B7iU">
+<img src="https://img.youtube.com/vi/MC7w6f2B7iU/0.jpg" /> </a>
+</p>  
+
 
 
 ## Usage
