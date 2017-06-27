@@ -25,7 +25,7 @@ network, or else to see the results you can open the browser on your system.
 
 ## Suggested Improvement(s)
 
-1. TUrning off of camera is not clean. Sometimes camera is on even after closing tab. It needs to be ammend.
+1. Turning off camera is not clean. Sometimes camera is on even after closing tab. It needs to be ammend.
 1. SMS facility has to be added on this project.
 2. Actual use will require it to host on internet, so that's something extra that can be done.
 3. Face Recognition can be used so that SMS can also send some info about the person as to who is one the door than just
